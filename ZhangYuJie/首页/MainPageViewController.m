@@ -23,6 +23,7 @@
     _showWeatheView.layer.cornerRadius = 3;
     _futureArray = [[NSMutableArray alloc]init];
     self.navigationController.toolbarHidden = YES;
+    NSLog(@"hahaha");
     
     // Do any additional setup after loading the view from its nib.
 }
