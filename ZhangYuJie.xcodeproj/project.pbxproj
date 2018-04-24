@@ -15,6 +15,12 @@
 		3654BA6A203BCAA100D5E683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654BA69203BCAA100D5E683 /* main.m */; };
 		3654BA74203BCAA100D5E683 /* ZhangYuJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654BA73203BCAA100D5E683 /* ZhangYuJieTests.m */; };
 		3654BA7F203BCAA100D5E683 /* ZhangYuJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654BA7E203BCAA100D5E683 /* ZhangYuJieUITests.m */; };
+		36B0E4692043B3720010E8EB /* selectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36B0E4682043B3720010E8EB /* selectView.xib */; };
+		36B0E46C2043B3970010E8EB /* selectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B0E46B2043B3970010E8EB /* selectView.m */; };
+		36B8F63D203D1D2900A9DB12 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8F63B203D1D2900A9DB12 /* MainPageViewController.m */; };
+		36B8F63E203D1D2900A9DB12 /* MainPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36B8F63C203D1D2900A9DB12 /* MainPageViewController.xib */; };
+		36B8F641203D1D3C00A9DB12 /* selfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8F640203D1D3C00A9DB12 /* selfViewController.m */; };
+		DEEE2414A7CEB261CB6966BD /* libPods-ZhangYuJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80329D249F8F8CB644F4C962 /* libPods-ZhangYuJie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		3654BA7A203BCAA100D5E683 /* ZhangYuJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhangYuJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3654BA7E203BCAA100D5E683 /* ZhangYuJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhangYuJieUITests.m; sourceTree = "<group>"; };
 		3654BA80203BCAA100D5E683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B0E4682043B3720010E8EB /* selectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = selectView.xib; sourceTree = "<group>"; };
+		36B0E46A2043B3970010E8EB /* selectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectView.h; sourceTree = "<group>"; };
+		36B0E46B2043B3970010E8EB /* selectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectView.m; sourceTree = "<group>"; };
+		36B8F637203D1CB200A9DB12 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		36B8F63A203D1D2900A9DB12 /* MainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		36B8F63B203D1D2900A9DB12 /* MainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		36B8F63C203D1D2900A9DB12 /* MainPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainPageViewController.xib; sourceTree = "<group>"; };
+		36B8F63F203D1D3C00A9DB12 /* selfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selfViewController.h; sourceTree = "<group>"; };
+		36B8F640203D1D3C00A9DB12 /* selfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selfViewController.m; sourceTree = "<group>"; };
+		7ECE02FE4B815DB4A1CC8C01 /* Pods-ZhangYuJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhangYuJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhangYuJie/Pods-ZhangYuJie.release.xcconfig"; sourceTree = "<group>"; };
+		80329D249F8F8CB644F4C962 /* libPods-ZhangYuJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhangYuJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B10C42A86C304ABB5E4762 /* Pods-ZhangYuJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhangYuJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhangYuJie/Pods-ZhangYuJie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEE2414A7CEB261CB6966BD /* libPods-ZhangYuJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				3654BA72203BCAA100D5E683 /* ZhangYuJieTests */,
 				3654BA7D203BCAA100D5E683 /* ZhangYuJieUITests */,
 				3654BA58203BCAA100D5E683 /* Products */,
+				6B8F6D6455612C4CA96D00ED /* Pods */,
+				A41BFCFB320E9BA5E39FF05A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +126,14 @@
 				3654BA5B203BCAA100D5E683 /* AppDelegate.m */,
 				3654BA5D203BCAA100D5E683 /* ViewController.h */,
 				3654BA5E203BCAA100D5E683 /* ViewController.m */,
+				36B8F638203D1CE600A9DB12 /* 首页 */,
+				36B8F639203D1CF200A9DB12 /* 我 */,
 				3654BA60203BCAA100D5E683 /* Main.storyboard */,
 				3654BA63203BCAA100D5E683 /* Assets.xcassets */,
 				3654BA65203BCAA100D5E683 /* LaunchScreen.storyboard */,
 				3654BA68203BCAA100D5E683 /* Info.plist */,
 				3654BA69203BCAA100D5E683 /* main.m */,
+				36B8F637203D1CB200A9DB12 /* Header.h */,
 			);
 			path = ZhangYuJie;
 			sourceTree = "<group>";
@@ -132,6 +156,45 @@
 			path = ZhangYuJieUITests;
 			sourceTree = "<group>";
 		};
+		36B8F638203D1CE600A9DB12 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				36B8F63A203D1D2900A9DB12 /* MainPageViewController.h */,
+				36B8F63B203D1D2900A9DB12 /* MainPageViewController.m */,
+				36B8F63C203D1D2900A9DB12 /* MainPageViewController.xib */,
+				36B0E4682043B3720010E8EB /* selectView.xib */,
+				36B0E46A2043B3970010E8EB /* selectView.h */,
+				36B0E46B2043B3970010E8EB /* selectView.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		36B8F639203D1CF200A9DB12 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				36B8F63F203D1D3C00A9DB12 /* selfViewController.h */,
+				36B8F640203D1D3C00A9DB12 /* selfViewController.m */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		6B8F6D6455612C4CA96D00ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88B10C42A86C304ABB5E4762 /* Pods-ZhangYuJie.debug.xcconfig */,
+				7ECE02FE4B815DB4A1CC8C01 /* Pods-ZhangYuJie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A41BFCFB320E9BA5E39FF05A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80329D249F8F8CB644F4C962 /* libPods-ZhangYuJie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3654BA83203BCAA100D5E683 /* Build configuration list for PBXNativeTarget "ZhangYuJie" */;
 			buildPhases = (
+				5D2A31EC2097F2720F80C33B /* [CP] Check Pods Manifest.lock */,
 				3654BA53203BCAA100D5E683 /* Sources */,
 				3654BA54203BCAA100D5E683 /* Frameworks */,
 				3654BA55203BCAA100D5E683 /* Resources */,
+				C6CF5F0B922D2918E32DDA57 /* [CP] Embed Pods Frameworks */,
+				EDF226B98AE963528F97F4B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,8 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B8F63E203D1D2900A9DB12 /* MainPageViewController.xib in Resources */,
 				3654BA67203BCAA100D5E683 /* LaunchScreen.storyboard in Resources */,
 				3654BA64203BCAA100D5E683 /* Assets.xcassets in Resources */,
+				36B0E4692043B3720010E8EB /* selectView.xib in Resources */,
 				3654BA62203BCAA100D5E683 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,13 +328,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D2A31EC2097F2720F80C33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZhangYuJie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6CF5F0B922D2918E32DDA57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhangYuJie/Pods-ZhangYuJie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF226B98AE963528F97F4B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZhangYuJie/Pods-ZhangYuJie-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MBProgressHUD+JDragon/MBProgressHUD+JDragon/MBProgressHUD+JDragon.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBProgressHUD+JDragon.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhangYuJie/Pods-ZhangYuJie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3654BA53203BCAA100D5E683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B8F63D203D1D2900A9DB12 /* MainPageViewController.m in Sources */,
 				3654BA5F203BCAA100D5E683 /* ViewController.m in Sources */,
+				36B0E46C2043B3970010E8EB /* selectView.m in Sources */,
 				3654BA6A203BCAA100D5E683 /* main.m in Sources */,
+				36B8F641203D1D3C00A9DB12 /* selfViewController.m in Sources */,
 				3654BA5C203BCAA100D5E683 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +555,13 @@
 		};
 		3654BA84203BCAA100D5E683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B10C42A86C304ABB5E4762 /* Pods-ZhangYuJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = ZhangYuJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhihua.zhang.ZhangYuJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +571,13 @@
 		};
 		3654BA85203BCAA100D5E683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECE02FE4B815DB4A1CC8C01 /* Pods-ZhangYuJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YR3RP559Y;
 				INFOPLIST_FILE = ZhangYuJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhihua.zhang.ZhangYuJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";

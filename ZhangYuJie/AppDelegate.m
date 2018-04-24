@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Header.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    
+    MainPageViewController *mainnav = [[MainPageViewController alloc]init];
+    
+    UINavigationController *main = [[UINavigationController alloc]initWithRootViewController:mainnav];
+    main.tabBarItem.image=[[UIImage imageNamed:@"tabBar_home_normal.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    main.tabBarItem.selectedImage=[[UIImage imageNamed:@"tabBar_home_press.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [main.tabBarItem setImageInsets:UIEdgeInsetsMake(10, 0, -10, 0)];
+    
+    
+    
+    selfViewController *personal = [[selfViewController alloc]init];
+    personal.tabBarItem.image=[[UIImage imageNamed:@"tabBar_myJD_normal.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    personal.tabBarItem.selectedImage=[[UIImage imageNamed:@"tabBar_myJD_press.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [personal.tabBarItem setImageInsets:UIEdgeInsetsMake(10, 0, -10, 0)];
+    
+    
+    
+    NSArray *tabarr = [[NSArray alloc]initWithObjects:main,personal,nil];
+    
+    UITabBarController *tabar = [[UITabBarController alloc]init];
+    tabar.viewControllers = tabarr;
+    tabar.tabBar.barTintColor=  RGBA(88, 80, 84, 0.6);
+    
+    self.window.rootViewController = tabar;
+    
     return YES;
 }
 
